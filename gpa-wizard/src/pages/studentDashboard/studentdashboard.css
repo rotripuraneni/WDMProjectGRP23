@@ -1,0 +1,42 @@
+.StudentDashboard
+{
+    width: 100%;
+
+}
+
+.studentDashboardSideBar {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #0064b1;
+    position: fixed;
+
+}
+.studentDashboardCourses {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+table    {
+    margin-top: 100px;
+    width: 150px;
+    height: 100px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+.studentTablesInDashboard {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imageInTableRow {
+    object-fit: contain;
+    width: 420px;
+
+}

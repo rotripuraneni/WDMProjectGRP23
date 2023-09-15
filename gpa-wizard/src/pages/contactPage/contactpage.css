@@ -1,0 +1,104 @@
+.contactInformation{
+    display: flex;
+    flex-direction:row;
+    margin-top: 70px;
+}
+
+.emptyForSpace {
+    flex: 2;
+}
+legend {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #0064b1;
+}
+fieldset {
+    flex: 4;
+    border-color: #0064b1;
+    border-width: 1px;
+}
+.contactDetails {
+    
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #0064b1;
+}
+.addressContactPage, .phoneNoContactPage, .emailContactPage {
+    flex: 2;
+    background-color: #0064b1;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 380px;
+}
+.addressContactPage > i, .phoneNoContactPage > i, .emailContactPage > i {
+        flex: 4;
+        padding-left: 40px;
+    }
+.addressContactPage > p, .phoneNoContactPage > p, .emailContactPage > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    flex: 8;
+    text-align: center;
+}
+.contactForm {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    background-color: #0064b1;
+    color: white;
+    width: 380px;
+    align-items: center;
+}
+.emailDivContactPage{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+.msgDivContactPage {
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+.buttonContactForm {
+    flex: 3;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    width: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items:center;
+    border-color: green;
+
+}
+.emailLabelContactPage, .msgLabelContactPage {
+    flex: 4;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.emailInputContactPage {
+    flex: 8;
+    height: 20px;
+}
+.msgInputContactPage {
+    flex: 8;
+}
+
+.contactImage {
+    margin-left: 60px;
+    margin-top: 20px;
+    flex: 6;
+}
+.contactImage > img {
+        height: 300px;
+        width: 350px;
+        margin-top: 40px;
+        margin-left: 80px;
+        
+    }
